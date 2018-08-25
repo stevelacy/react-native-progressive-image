@@ -14,5 +14,8 @@
   "license": "MIT",
   "author": "Dylan Vann <dylan.vann@gmail.com> (dylanvann.com)",
   "main": "index.js",
-  "repository": "DylanVann/react-native-progressive-image"
+  "repository": "DylanVann/react-native-progressive-image",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
