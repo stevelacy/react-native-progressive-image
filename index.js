@@ -15,6 +15,7 @@ export default class ProgressiveImage extends Component {
     Animated.timing(this.state.thumbnailOpacity, {
       toValue: 1,
       duration: this.props.thumbnailFadeDuration,
+			useNativeDriver: true,
     }).start()
     this.props.onLoadThumbnail()
   }
@@ -23,6 +24,7 @@ export default class ProgressiveImage extends Component {
     Animated.timing(this.state.imageOpacity, {
       toValue: 1,
       duration: this.props.imageFadeDuration,
+			useNativeDriver: true,
     }).start()
     this.props.onLoadImage()
   }
